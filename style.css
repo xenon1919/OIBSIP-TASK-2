@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 100vh;
+    background-color: rgb(255, 246, 142);
+    border: 10px solid rgb(37, 8, 1);
+}
+.bio {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.image, img{
+    width: 320px;
+    height:320px;
+    margin-right: 50px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: flex-end;
+}
+.heading h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+.heading h4 {
+    text-align: end;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.image{
+    border-radius: 60%;
+    overflow: hidden;
+}
+.about{
+    margin-top:50px;
+
+}
+.about h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify ;
+    font-family: sans-serif;
+}
+.inventions {
+    margin: 50px 0;
+
+}.inventions h3 {
+    font-size: 20px ;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.inventions ul{
+    font-size: 20px ;
+    margin-left: 50px;
+    font-family: sans-serif;
+
+}
+.inventions li{
+    font-size: 20px ;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+
+}
+footer{
+    margin: 50px 0;
+    font-family: sans-serif;
+
+}
+footer p{
+    font-size: 20px ;
+text-align: end;
+font-family: sans-serif;
+}
